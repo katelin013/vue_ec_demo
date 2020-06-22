@@ -1,0 +1,58 @@
+{
+    "bigImg1": "http://www.api.qsyj.com/img/2019banner4.jpg",
+    "bigImg2": "http://www.api.qsyj.com/img/2019banner2.jpg",
+    "winnowItems1": [
+        {
+            "name": "實用券攻略",
+            "desc": "禮盒券後直減130",
+            "img": "http://www.api.qsyj.com/img/2f_2.jpg"
+        },
+        {
+            "name": "神價熱銷榜",
+            "desc": "禮盒券後直減120",
+            "img": "http://www.api.qsyj.com/img/3f_4.jpg"
+        },
+        {
+            "name": "人氣榜",
+            "desc": "禮盒券後直減120",
+            "img": "http://www.api.qsyj.com/img/2f_4.jpg"
+        },
+        {
+            "name": "眼鏡課堂",
+            "desc": "禮盒券後直減120",
+            "img": "http://www.api.qsyj.com/img/2f_4.jpg"
+        },
+        {
+            "name": "護理妙招",
+            "desc": "禮盒券後直減120",
+            "img": "http://www.api.qsyj.com/img/2f_6.jpg"
+        }
+    ],
+    "winnowItems2": [
+        {
+            "name": "實用券攻略",
+            "desc": "禮盒券後直減130",
+            "img": "http://www.api.qsyj.com/img/2f_2.jpg"
+        },
+        {
+            "name": "神價熱銷榜",
+            "desc": "禮盒券後直減120",
+            "img": "http://www.api.qsyj.com/img/3f_4.jpg"
+        },
+        {
+            "name": "人氣榜",
+            "desc": "禮盒券後直減120",
+            "img": "http://www.api.qsyj.com/img/2f_4.jpg"
+        },
+        {
+            "name": "眼鏡課堂",
+            "desc": "禮盒券後直減120",
+            "img": "http://www.api.qsyj.com/img/2f_4.jpg"
+        },
+        {
+            "name": "護理妙招",
+            "desc": "禮盒券後直減120",
+            "img": "http://www.api.qsyj.com/img/2f_6.jpg"
+        }
+    ]
+}

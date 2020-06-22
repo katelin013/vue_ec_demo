@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- Header 導航 -->
+    <NavView></NavView>
+
+    <!-- 內容 -->
+    <router-view></router-view>
+
+    <!-- 底部菜單 -->
+    <TabbarView></TabbarView>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavView from './components/NavView/NavView.vue'
+import TabbarView from './components/TabbarView/TabbarView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavView,
+    TabbarView
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
