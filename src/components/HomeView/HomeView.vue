@@ -16,18 +16,19 @@
     <WinnowView :bigImg='winnowBig1' :contentList="winnowContents1"></WinnowView>
     <WinnowView :bigImg='winnowBig2' :contentList="winnowContents2"></WinnowView>
     <TitleView name='專屬推薦' icon='hot'></TitleView>
-
+    <RecommendView></RecommendView>
   </div>
 </template>
 
 <script>
 
 import { Swipe, SwipeItem} from 'vant';
-import CategoryView from '../CategoryView/CategoryView.vue';
-import TitleView from "../TitleView/TitleView.vue";
-import SellingView from '../SellingView/SellingView.vue';
-import WinnowView from '../WinnowView/WinnowView.vue';
+import CategoryView from '../CategoryView/CategoryView.vue'
+import TitleView from "../TitleView/TitleView.vue"
+import SellingView from '../SellingView/SellingView.vue'
+import WinnowView from '../WinnowView/WinnowView.vue'
 import winnowItemList from '../../assets/json/winnow.json'
+import RecommendView from '../RecommendView/RecommendView.vue'
 
 export default {
   name: 'homeView',
@@ -37,7 +38,8 @@ export default {
     CategoryView,
     TitleView,
     SellingView,
-    WinnowView
+    WinnowView,
+    RecommendView
   },
   data(){
     return{

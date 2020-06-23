@@ -1,0 +1,32 @@
+[
+    {
+        "img": "https://img2.momoshop.com.tw/goodsimg/0007/034/753/7034753_R.jpg?t=1589083375",
+        "title": "石頭小瓦掃地機器人規劃版",
+        "desc": "掃拖合一、吸力大、低噪音",
+        "keyword1": "小瓦",
+        "keyword2": "機器人",
+        "brand": "石頭",
+        "standard": "掃拖",
+        "price": 5999
+    },
+    {
+        "img": "https://img3.momoshop.com.tw/goodsimg/0006/915/148/6915148_R.jpg?t=1590111224",
+        "title": "美國iRobot 掃地機器人",
+        "desc": "專業分工先將地板掃乾淨再擦地",
+        "keyword1": "美國",
+        "keyword2": "掃地",
+        "brand": "iRobot",
+        "standard": "擦地",
+        "price": 9999
+    },
+    {
+        "img": "https://img3.momoshop.com.tw/goodsimg/0007/488/894/7488894_R.jpg?t=1590406479",
+        "title": "伊萊克斯3D掃地機器人",
+        "desc": "三角型動設計，角落清潔力最強",
+        "keyword1": "伊萊克斯",
+        "keyword2": "三角型",
+        "brand": "伊萊克斯",
+        "standard": "清潔力最強",
+        "price": 7800
+    }
+]
