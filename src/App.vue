@@ -4,7 +4,6 @@
     <van-nav-bar
       v-show="navViewIsShow"
       :title="title"
-      fixed
     />
 
     <!-- 內容 -->
@@ -70,5 +69,4 @@ export default {
       font-size: 1rem;
     }
   }
-
 </style>

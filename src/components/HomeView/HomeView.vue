@@ -8,6 +8,13 @@
     </van-swipe>
     <!-- 分類 -->
     <CategoryView></CategoryView>
+
+    <!-- 單品熱賣 -->
+    <TitleView name='單品熱賣' icon='star'></TitleView>
+    <SellingView></SellingView>
+    <TitleView name='精選活動' icon='point-gift'></TitleView>
+    <WinnowView></WinnowView>
+    <!-- <TitleView name='專屬推薦' icon='hot'></TitleView> -->
   </div>
 </template>
 
@@ -15,6 +22,9 @@
 
 import { Swipe, SwipeItem} from 'vant';
 import CategoryView from '../CategoryView/CategoryView.vue';
+import TitleView from "../TitleView/TitleView.vue";
+import SellingView from '../SellingView/SellingView.vue';
+import WinnowView from '../WinnowView/WinnowView.vue';
 
 export default {
 
@@ -22,7 +32,10 @@ export default {
   components:{
     [Swipe.name]:Swipe,
     [SwipeItem.name]:SwipeItem,
-    CategoryView
+    CategoryView,
+    TitleView,
+    SellingView,
+    WinnowView
   },
   data(){
     return{
@@ -46,15 +59,15 @@ export default {
 
 <style lang="scss">
 .my-swipe .van-swipe-item {
-    color: #fff;
-    height: 13rem;
-    font-size: 1rem;
-    text-align: center;
-    background-color: lightgray;
+  color: #fff;
+  height: 13rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: lightgray;
 
-    img{
-      height: 13rem;
-      width: 100%;
-    }
+  img{
+    height: 13rem;
+    width: 100%;
   }
+}
 </style>
