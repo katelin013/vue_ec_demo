@@ -24,12 +24,28 @@
         active: 0,
       }
     },
-    // active = tabbar item's position
     watch: {
-      active(value){
-        console.log('active',value)
+      // 監聽 url 的變化, 當使用者點擊上一頁時, 要依照 url 變化底部 item 的 hight light
+      $route(to) {
+        switch(to.path){
+          case '/home':
+            this.active = 0;
+          break;
+          case '/assort':
+            this.active = 1;
+          break;
+          case '/search':
+            this.active = 2;
+          break;
+          case '/cart':
+            this.active = 3;
+          break;
+          case '/user':
+            this.active = 4;
+          break;
+        }
       }
-    }
+    },
   }
 </script>
 <style>
