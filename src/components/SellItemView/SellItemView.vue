@@ -21,10 +21,8 @@ export default {
   .sell-item-view{
     width: 50%;
     height: 16rem;
-    // border: 0.065rem solid #bbbbbb;
     border-right: 0.065rem solid #bbbbbb;
     border-bottom: 0.065rem solid #bbbbbb;
-    float: left;
     box-sizing: border-box;
     padding-left: 0.5rem;
     padding-right: 0.5rem;

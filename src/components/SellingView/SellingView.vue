@@ -26,5 +26,7 @@ export default {
   .selling-view{
     border-top: 0.065rem solid #bbbbbb;
     border-left: 0.065rem solid #bbbbbb;
+    display:flex;
+    flex-wrap: wrap;
   }
 </style>

@@ -55,6 +55,7 @@ export default {
 </script>
 
 <style lang="scss">
+
   .van-nav-bar{
     background-color: red;
     height: 2.5rem;
