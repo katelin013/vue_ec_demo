@@ -19,8 +19,17 @@
 </template>
 
 <script>
-import { NavBar } from 'vant';
+import Vue from 'vue';
+import { NavBar, Lazyload } from 'vant';
 import TabbarView from './components/TabbarView/TabbarView.vue'
+
+// 如果有需要可以加上讀取失敗的圖片 & 讀取時的圖片
+Vue.use(Lazyload, {
+  preLoad: 1.3,
+  // error: 'dist/error.png',
+  // loading: 'dist/loading.gif',
+  attempt: 3
+})
 
 export default {
   name: 'App',

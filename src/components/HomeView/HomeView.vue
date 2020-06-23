@@ -1,17 +1,20 @@
 <template>
   <div class="home-view">
-    <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
+    <!-- Swipe banner -->
+    <van-swipe class="my-swipe" :autoplay="3000" indicator-color="darkgray">
       <van-swipe-item v-for="(image, index) in images" :key="index">
         <img v-lazy="image" />
       </van-swipe-item>
     </van-swipe>
+    <!-- 分類 -->
+    <CategoryView></CategoryView>
   </div>
 </template>
 
 <script>
-import Vue from 'vue';
-import { Swipe, SwipeItem, Lazyload} from 'vant';
-Vue.use(Lazyload);
+
+import { Swipe, SwipeItem} from 'vant';
+import CategoryView from '../CategoryView/CategoryView.vue';
 
 export default {
 
@@ -19,7 +22,7 @@ export default {
   components:{
     [Swipe.name]:Swipe,
     [SwipeItem.name]:SwipeItem,
-
+    CategoryView
   },
   data(){
     return{
@@ -48,6 +51,7 @@ export default {
     font-size: 1rem;
     text-align: center;
     background-color: lightgray;
+
     img{
       height: 13rem;
       width: 100%;
