@@ -4,7 +4,15 @@
 
 <script>
 export default {
-  name: 'searchView'
+  name: 'searchView',
+  data(){
+    return{
+      navVieShow: false
+    }
+  },
+  created(){
+    this.$emit('onNavShow', this.navVieShow)
+  }
 }
 </script>
 

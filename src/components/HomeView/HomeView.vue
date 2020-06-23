@@ -4,7 +4,17 @@
 
 <script>
 export default {
-  name: 'homeView'
+  name: 'homeView',
+  data(){
+    return{
+      title: '首頁',
+      navVieShow: true
+    }
+  },
+  created(){
+    this.$emit('onTitle', this.title),
+    this.$emit('onNavShow', this.navVieShow)
+  }
 }
 </script>
 

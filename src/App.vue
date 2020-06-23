@@ -1,54 +1,65 @@
 <template>
   <div id="app">
     <!-- Header 導航 -->
-    <NavView></NavView>
+    <van-nav-bar
+      v-show="navViewIsShow"
+      :title="title"
+      fixed
+    />
 
     <!-- 內容 -->
-    <router-view></router-view>
-
-    <van-button type="default">默认按钮</van-button>
-    <van-button type="primary">主要按钮</van-button>
-    <van-button type="info">信息按钮</van-button>
-    <van-button type="warning">警告按钮</van-button>
-    <van-button type="danger">危险按钮</van-button>
+    <router-view
+      @onTitle="changeTitle"
+      @onNavShow="showNavView"
+    ></router-view>
 
     <!-- 底部菜單 -->
-    <!-- <TabbarView></TabbarView> -->
-    <van-tabbar v-model="active">
-      <van-tabbar-item icon="home-o">标签</van-tabbar-item>
-      <van-tabbar-item icon="search" dot>标签</van-tabbar-item>
-      <van-tabbar-item icon="friends-o" badge="5">标签</van-tabbar-item>
-      <van-tabbar-item icon="setting-o" badge="20">标签</van-tabbar-item>
-    </van-tabbar>
-
-
+    <TabbarView></TabbarView>
   </div>
 </template>
 
 <script>
-import NavView from './components/NavView/NavView.vue'
-// import TabbarView from './components/TabbarView/TabbarView.vue'
-import { Tabbar, TabbarItem } from 'vant';
-import { Button } from 'vant';
-
+import { NavBar } from 'vant';
+import TabbarView from './components/TabbarView/TabbarView.vue'
 
 export default {
   name: 'App',
   components: {
-    NavView,
-    // TabbarView,
-    [Button.name]:Button,
-    [Tabbar.name]:Tabbar,
-    [TabbarItem.name]:TabbarItem
+    TabbarView,
+    [NavBar.name]:NavBar,
   },
-  data() {
+  data(){
     return {
-      active: 0,
-    };
+      title: '標題',
+      navViewIsShow: true,
+    }
   },
+  methods:{
+    changeTitle(title){
+      this.title = title
+    },
+    showNavView(isShow){
+      this.navViewIsShow = isShow
+
+    }
+  }
 }
 </script>
 
-<style>
+<style lang="scss">
+  .van-nav-bar{
+    background-color: red;
+    height: 2.5rem;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    .van-nav-bar__title{
+      color: white;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+  }
 
 </style>
