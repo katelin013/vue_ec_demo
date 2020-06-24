@@ -1,5 +1,8 @@
 <template>
   <div class="recommend-item-view">
+    <van-divider
+      :style="{ color: '#cccccc'}"
+    />
     <img :src="item.img" alt="">
     <div class="item-content">
       <h3 class="title">{{item.title}}</h3>
@@ -46,12 +49,11 @@ export default {
 
 <style lang='scss'>
   .recommend-item-view{
-    background-color: rgb(240, 238, 238);
-    margin-top: 10px;
+    background-color: white;
     position: relative;
     img{
-      width: 5rem;
-      margin: 2rem 2rem 2rem;
+      width: 7.3rem;
+      margin: 1rem 0.8rem 0.8rem;
     }
     .item-content{
       display: flex;
@@ -85,7 +87,7 @@ export default {
     .bottom-content{
       display: flex;
       justify-content: space-between;
-      padding: 0 0.5rem 0.5rem;
+      padding: 0 0.5rem 0;
       color: darkgray;
       font-size: 0.8rem;
       font-weight: 900;

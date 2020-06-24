@@ -5,7 +5,4 @@
 
 ![image](https://github.com/katelin013/vue_ec_demo/blob/master/demo_image_1.png)
 
-![image](https://github.com/katelin013/vue_ec_demo/blob/master/demo_image_2.png)
-
-![image](https://github.com/katelin013/vue_ec_demo/blob/master/demo_image_3.png)
 

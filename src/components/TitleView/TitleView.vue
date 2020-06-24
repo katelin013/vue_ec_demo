@@ -22,8 +22,8 @@ export default {
 
 <style lang="scss">
   .title-view{
-    height: 4.6875rem;
-		line-height: 4.6875rem;
+    height: 3rem;
+		line-height: 3rem;
     .top-border{
       width:100%;
       height: 2px;
