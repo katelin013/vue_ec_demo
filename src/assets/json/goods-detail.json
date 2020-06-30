@@ -1,36 +1,36 @@
 {
     "id": "30013",
-    "name": "博士倫-日拋彩色隱形眼鏡 30片",
-    "desc": "凝結後的水氣似霧又似冰，美的就像水晶即使平凡的花草樹木，一旦被冰霧包裹，就成了動人的冰花、冰樹。綺芙莉就是要為女性，帶來比美麗更令人屏息的輕熟感精緻瞳色。",
+    "name": "【Apple 蘋果】福利品 iPhone X 64GB 智慧手機",
+    "desc": "Apple iPhone 11 128GB 配置 6.1 吋 Liquid Retina HD 顯示器，讓成像更逼真生動，提供原彩顯示，可調整白平衡，以配合你所處環境光線的色溫；搭載杜比全景聲，具備 3D 空間環繞音效，讓你感覺彷彿身臨其境，還擁有空間音訊技術，能模擬環繞聲，營造更引人入勝的體驗。",
     "banners": [
         {
             "id": 1,
-            "img": "http://www.api.qsyj.com/img/detail-banner1.png"
+            "img": "https://images.chinatimes.com/newsphoto/2019-09-10/900/20190910003032.jpg"
         },
         {
             "id": 2,
-            "img": "http://www.api.qsyj.com/img/detail-banner2.png"
+            "img": "https://d2lfcsub12kx0l.cloudfront.net/tw/article/img/202004/202004080547084724_ExtraLargeSize-640x640.jpg"
         },
         {
             "id": 3,
-            "img": "http://www.api.qsyj.com/img/detail-banner3.png"
+            "img": "https://beginnews.com/wp-content/uploads/2020/04/8mo4mbvdo5i.jpg"
         }
     ],
-    "newPrice": 358,
-    "oldPrice": 488,
+    "newPrice": 12996,
+    "oldPrice": 15888,
     "sale": 1,
     "standardImages": [
         {
-            "color": "魅力棕-黑色",
-            "img": "http://www.api.qsyj.com/img/img-d-c1.jpg"
+            "color": "深邃黑",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTACjgJN_jVi6HfiOZkY29zOTASHDUMUh2mtY5rFIl-nP_ZFi5kEVt07gTK_TkKulmNKmYdMy8&usqp=CAc"
         },
         {
-            "color": "棕色",
-            "img": "http://www.api.qsyj.com/img/img-d-c2.jpg"
+            "color": "活力紅",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCwKiMle6o0Jb8jyici6Fn8opDkCkiS9rspdSM2iNRC_sdgbaWXaLFjXKVET19TuQiRWf48EM&usqp=CAc"
         },
         {
-            "color": "灰色",
-            "img": "http://www.api.qsyj.com/img/img-d-c3.jpg"
+            "color": "晶耀白",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYJiLIDG8KWmnmk1ViSLrfRJWeIFcyhFkTvXLkfzW-ix57uIC5X68Brrgb8s8kR4wv3ZyS1IM0&usqp=CAc"
         }
     ],
     "degree": [
@@ -45,90 +45,74 @@
         "-4.50",
         "-5.00"
     ],
-    "explain": "假一賠十 | 7天無憂退貨 | 滿100免運費",
+    "explain": "雙1200萬畫素鏡頭",
     "appraise": {
         "num": 4,
         "rateScore": "98.7",
         "list": [
             {
-                "userImg": "http://www.api.qsyj.com/img/user_img1.jpg",
+                "userImg": "https://static.newmobilelife.com/wp-content/uploads/2018/11/unnie1.jpg",
                 "name": "我很臭美",
-                "content": "朋友推薦的，很好看的顏色，上眼特別驚艷，自然粉色，舒適度也不錯。",
-                "showImg": "http://www.api.qsyj.com/img/user_show1.jpg"
+                "content": "黑色讚讚讚",
+                "showImg": "https://d2lfcsub12kx0l.cloudfront.net/tw/article/img/202004/202004080547084724_ExtraLargeSize-640x640.jpg"
             },
             {
-                "userImg": "http://www.api.qsyj.com/img/user_img1.jpg",
+                "userImg": "https://static.newmobilelife.com/wp-content/uploads/2018/11/unnie1.jpg",
                 "name": "叫我女王",
-                "content": "朋友推薦的，很好看的顏色，上眼特別驚艷，自然粉色，舒適度也不錯。",
-                "showImg": "http://www.api.qsyj.com/img/user_show1.jpg"
+                "content": "白色潮到出水",
+                "showImg": "https://c.ecimg.tw/items/DYAJDFA900AIIS2/000001_1587980453.jpg"
             },
             {
-                "userImg": "http://www.api.qsyj.com/img/user_img1.jpg",
+                "userImg": "https://static.newmobilelife.com/wp-content/uploads/2018/11/unnie1.jpg",
                 "name": "我很臭美",
-                "content": "朋友推薦的，很好看的顏色，上眼特別驚艷，自然粉色，舒適度也不錯。",
-                "showImg": "http://www.api.qsyj.com/img/user_show1.jpg"
+                "content": "用起來94爽",
+                "showImg": "https://images.chinatimes.com/newsphoto/2020-05-20/900/20200520001900.jpg"
             },
             {
-                "userImg": "http://www.api.qsyj.com/img/user_img1.jpg",
+                "userImg": "https://static.newmobilelife.com/wp-content/uploads/2018/11/unnie1.jpg",
                 "name": "我很臭美",
-                "content": "朋友推薦的，很好看的顏色，上眼特別驚艷，自然粉色，舒適度也不錯。",
-                "showImg": "http://www.api.qsyj.com/img/user_show1.jpg"
+                "content": "黑色超美der",
+                "showImg": "https://img1.momoshop.com.tw/expertimg/0006/676/528/654.jpg?t=1587993820399"
             }
         ]
     },
     "productMessage": [
         {
-            "key": "材質",
-            "value": "甲基丙烯酸羥乙酯、乙二醇二甲基丙烯酸酯"
+            "key": "電池容量",
+            "value": "3501~6000mAh"
         },
         {
-            "key": "含水量",
-            "value": "55%"
+            "key": "上市時間",
+            "value": "2017"
         },
         {
-            "key": "保質期",
-            "value": "3年"
+            "key": "尺寸",
+            "value": "6寸"
         },
         {
-            "key": "直徑",
-            "value": "14.2mm"
+            "key": "容量",
+            "value": "64GB"
         },
         {
-            "key": "基弧",
-            "value": "8.6mm"
-        },
-        {
-            "key": "中心厚度",
-            "value": "0.09mm（-3.00D時）"
-        },
-        {
-            "key": "包裝規格",
-            "value": "2片/盒"
-        },
-        {
-            "key": "配戴週期",
-            "value": "月"
-        },
-        {
-            "key": "花色",
-            "value": "活力黑、印象棕、璀璨灰、酒紅褐"
+            "key": "像素",
+            "value": "1500萬"
         }
     ],
     "productStamp": [
         {
-            "stamp": "琉晶棕",
-            "text": "細膩的網點環狀，簡單卻不失細節。精心調配的靚黑外圈，讓眼眸深邃有神，內圈獨特的裸膚棕映襯眼底，光感剔透更顯雙眸清透水潤如琉晶。不用任何眼影，只貼合睫毛根部畫出流暢眼線，眼尾微微上翹，塗抹有光澤和拉長效果的睫毛膏。清新又如水般的眼眸，柔和親近感油然而生。",
-            "img": "http://www.api.qsyj.com/img/img-d4.png"
+            "stamp": "曜石黑",
+            "text": "細膩的網點環狀，簡單卻不失細節。精心調配的靚黑外圈。",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTACjgJN_jVi6HfiOZkY29zOTASHDUMUh2mtY5rFIl-nP_ZFi5kEVt07gTK_TkKulmNKmYdMy8&usqp=CAc"
         },
         {
-            "stamp": "清幽藍 ",
-            "text": "寶石般清澈的藍，從層層暗色星雲中擴散，漸漸氤氳成深邃燦爛的星河。花紋的漸層疊加，貼合著眼部自然紋路，帶來通透變色效果，勾勒出閃亮星光眸。適當的加深眼周立體感，眼眸中藍色的自然露出，宛若天生混血美目。即使是通勤裝扮，也不用擔心效果突兀。",
-            "img": "http://www.api.qsyj.com/img/img-d5.png"
+            "stamp": "寶石藍",
+            "text": "寶石般清澈的藍，從層層暗色星雲中擴散，漸漸氤氳成深邃燦爛的星河。花紋的漸層疊加，貼合著眼部自然紋路，帶來通透變色效果，勾勒出閃亮星光眸。適當的加深眼周立體感，眼眸中藍色的自然露出，宛若天生混血美目。",
+            "img": "https://d2lfcsub12kx0l.cloudfront.net/tw/article/img/202004/202004080547084724_ExtraLargeSize-640x640.jpg"
         },
         {
-            "stamp": "活力黑",
-            "text": "深邃黑結合經典可可環打造自然放大的清新雙眸。外環設計以集中瞳孔為焦點，圍繞成雙層閃耀星星環來營造出深邃感，第二層的甜美可可色糅合黑環，使配戴效果更有層次。不需要刻意的色彩和眼妝技巧，也能擁有元氣神韻。",
-            "img": "http://www.api.qsyj.com/img/img-d6.png"
+            "stamp": "可可棕",
+            "text": "深邃黑結合經典可可環圍繞成雙層閃耀星星環來營造出深邃感。",
+            "img": "https://beginnews.com/wp-content/uploads/2020/04/8mo4mbvdo5i.jpg"
         }
     ]
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="sell-item-view">
+  <div class="sell-item-view" @click="sellItemClick(item.id)">
     <img class='item-img' v-lazy="item.img">
     <p class="title">{{item.title}}</p>
     <p class="desc">{{item.desc}}</p>
@@ -14,6 +14,17 @@
 export default {
   name: 'sellItemView',
   props:['item'],
+  methods:{
+    sellItemClick(id){
+      console.log(id);
+      this.$router.push({ path: '/product', params: { productId: 'id' }})
+      // this.$router.push('/product');
+      // this.$store.commit('changeProductShow', {
+      //   isShow: true,
+      //   product_id: id
+      // });
+    }
+  }
 }
 </script>
 

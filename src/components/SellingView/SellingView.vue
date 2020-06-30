@@ -1,6 +1,8 @@
 <template>
   <div class="selling-view">
-    <SellItemView v-for='(item,index) in selling_items' :key="index" :item="item">
+    <SellItemView
+      v-for='(item,index) in selling_items' :key="index" :item="item"
+    >
     </SellItemView>
   </div>
 </template>
@@ -18,7 +20,7 @@ export default {
     return {
       selling_items: sellingList
     }
-  },
+  }
 }
 </script>
 

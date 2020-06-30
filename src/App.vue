@@ -10,10 +10,11 @@
     <router-view
       @onTitle="changeTitle"
       @onNavShow="showNavView"
+      @onTabBarShow="showTabBar"
     ></router-view>
 
     <!-- 底部菜單 -->
-    <TabbarView></TabbarView>
+    <TabbarView v-show="tabBarisShow"></TabbarView>
   </div>
 </template>
 
@@ -40,6 +41,7 @@ export default {
     return {
       title: '標題',
       navViewIsShow: true,
+      tabBarisShow: true,
     }
   },
   methods:{
@@ -48,7 +50,9 @@ export default {
     },
     showNavView(isShow){
       this.navViewIsShow = isShow
-
+    },
+    showTabBar(isShow){
+      this.tabBarisShow = isShow
     }
   }
 }
@@ -69,5 +73,29 @@ export default {
       font-weight: 700;
       font-size: 1rem;
     }
+    .van-nav-bar__arrow{
+      color: white;
+      font-size: 1rem;
+    }
   }
+
+  /* transition name="xxx"
+      xxx-enter         進入過渡的開始狀態
+      xxx-enter-to      過渡的結束狀態
+      xxx-enter-active  過渡時間, 延遲, 曲線
+
+      xxx-leave         離開過渡的開始狀態
+      xxx-leave-to      離開過渡的結束狀態
+      xxx-leave-active  離開過渡時間, 延遲, 曲線
+   */
+
+   .slider-right-enter-active,
+   .slider-right-leave-active{
+     transition: all 1s ease;
+   }
+
+   .slider-right-enter,
+   .slider-right-leave-to{
+     transform: translateX(100%);
+   }
 </style>

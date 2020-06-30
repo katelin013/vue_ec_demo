@@ -12,11 +12,15 @@
     <TitleView name='單品熱賣' icon='star'></TitleView>
     <SellingView></SellingView>
     <TitleView name='精選活動' icon='point-gift'></TitleView>
-    <div class="test"></div>
     <WinnowView :bigImg='winnowBig1' :contentList="winnowContents1"></WinnowView>
     <WinnowView :bigImg='winnowBig2' :contentList="winnowContents2"></WinnowView>
     <TitleView name='專屬推薦' icon='hot'></TitleView>
     <RecommendView></RecommendView>
+
+    <!-- 商品頁面 -->
+    <!-- <transition name="slider-right">
+      <ProductView v-if="productShow"></ProductView>
+    </transition> -->
   </div>
 </template>
 
@@ -29,6 +33,7 @@ import SellingView from '../SellingView/SellingView.vue'
 import WinnowView from '../WinnowView/WinnowView.vue'
 import winnowItemList from '../../assets/json/winnow.json'
 import RecommendView from '../RecommendView/RecommendView.vue'
+// import ProductView from '../ProductView/ProductView.vue'
 
 export default {
   name: 'homeView',
@@ -39,7 +44,8 @@ export default {
     TitleView,
     SellingView,
     WinnowView,
-    RecommendView
+    RecommendView,
+    // ProductView
   },
   data(){
     return{
@@ -58,9 +64,15 @@ export default {
       winnowContents2: winnowItemList.winnowItems2,
     }
   },
+  computed:{
+    productShow(){
+      return this.$store.state.productShow;
+    }
+  },
   created(){
     this.$emit('onTitle', this.title),
     this.$emit('onNavShow', this.navVieShow)
+    this.$emit('onTabBarShow', true)
   }
 }
 </script>
